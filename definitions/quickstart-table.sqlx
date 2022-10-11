@@ -4,6 +4,6 @@ config {
 
 SELECT
   fruit,
-  SUM(count) as n_count
+  SUM(count) as n_count_2
 FROM ${ref("quickstart-source")}
 GROUP BY 1
